@@ -1,0 +1,90 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f2f6fc;
+}
+
+/* Sidebar Styles */
+.css-nlntq9 {
+    background-color: #0d47a1;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.css-nlntq9 a {
+    color: #ffffff;
+}
+
+.css-nlntq9 a:hover {
+    color: #bbdefb;
+}
+
+/* Main Content Styles */
+.main {
+    padding: 20px;
+}
+
+.stMarkdown {
+    font-size: 16px;
+}
+
+/* Chart Styles */
+.chart-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Button Styles */
+.css-1x8cf1d {
+    background-color: #2196f3;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.css-1x8cf1d:hover {
+    background-color: #1976d2;
+}
+
+/* Slider Styles */
+.st-d9 {
+    color: #0d47a1;
+}
+
+.st-d9:hover {
+    color: #1976d2;
+}
+
+/* Responsive Grid Layout */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 20px;
+}
+
+.sidebar {
+    grid-column: 1;
+}
+
+.main-content {
+    grid-column: 2;
+}
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    .sidebar {
+        grid-column: 1;
+    }
+
+    .main-content {
+        grid-column: 1;
+    }
+}
